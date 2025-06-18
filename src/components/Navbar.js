@@ -8,16 +8,34 @@ import { ArrowRight, Menu, X } from 'lucide-react'
 import { buttonVariants } from './ui/button'
 import { cn } from '@/lib/utils'
 import WaitlistModal from './WaitlistModal'
+import ContactModal from './ContactModal'
 
 function Navbar() {
     const [isWaitlistModalOpen, setIsWaitlistModalOpen] = useState(false);
+    const [isContactModalOpen, setIsContactModalOpen] = useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
     const openWaitlistModal = () => setIsWaitlistModalOpen(true);
     const closeWaitlistModal = () => setIsWaitlistModalOpen(false);
     
+    const openContactModal = () => setIsContactModalOpen(true);
+    const closeContactModal = () => setIsContactModalOpen(false);
+    
     const toggleMobileMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
     const closeMobileMenu = () => setIsMobileMenuOpen(false);
+
+    // Smart autoclose after clicking a navigation link
+    const handleNavClick = (href) => {
+        if (href.startsWith('#')) {
+            // For anchor links, close immediately and scroll
+            closeMobileMenu();
+        } else {
+            // For other links, add a small delay for better UX
+            setTimeout(() => {
+                closeMobileMenu();
+            }, 150);
+        }
+    };
 
     // Prevent body scroll when mobile menu is open and handle escape key
     useEffect(() => {
@@ -68,7 +86,7 @@ function Navbar() {
                             <Link href='#faq' className='font-semibold hover:underline hover:underline-offset-1'>
                                 FAQ
                             </Link>
-                            <Link href='#' className='font-semibold hover:underline hover:underline-offset-1'>
+                            <Link href='#' className='font-semibold hover:underline hover:underline-offset-1' onClick={openContactModal}>
                                 Contact
                             </Link>
                         </div>
@@ -112,10 +130,11 @@ function Navbar() {
                 
                 {/* Sidebar Panel */}
                 <div 
-                    className={`absolute top-0 right-0 h-full w-80 max-w-[85vw] bg-white shadow-2xl transform transition-transform duration-300 ease-out ${
+                    className={`absolute top-0 right-0 h-full w-80 max-w-[85vw] shadow-2xl transform transition-transform duration-300 ease-out ${
                         isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'
                     }`}
                     style={{ 
+                        backgroundColor: '#ffffff',
                         borderLeft: '1px solid #e5e7eb'
                     }}
                     role="dialog"
@@ -123,7 +142,10 @@ function Navbar() {
                     aria-labelledby="mobile-menu-title"
                 >
                     {/* Header Section */}
-                    <div className="flex items-center justify-between p-6 border-b border-gray-200 bg-white">
+                    <div 
+                        className="flex items-center justify-between p-6 border-b border-gray-200"
+                        style={{ backgroundColor: '#ffffff' }}
+                    >
                         <Image 
                             src="/care-complaince-logo-new.svg" 
                             alt="Compliance Care Logo" 
@@ -142,41 +164,52 @@ function Navbar() {
                     </div>
                     
                     {/* Navigation Content */}
-                    <div className="flex flex-col h-full bg-white">
+                    <div 
+                        className="flex flex-col h-full"
+                        style={{ backgroundColor: '#ffffff' }}
+                    >
                         {/* Navigation Links */}
-                        <div className="flex flex-col p-6 space-y-2 flex-1">
+                        <div 
+                            className="flex flex-col p-6 space-y-2 flex-1"
+                            style={{ backgroundColor: '#ffffff' }}
+                        >
                             <Link 
                                 href='#pricing' 
                                 className='text-lg font-semibold text-gray-900 hover:text-pink-600 transition-colors py-4 px-3 rounded-md hover:bg-gray-50 min-h-[48px] flex items-center'
-                                onClick={closeMobileMenu}
+                                onClick={() => handleNavClick('#pricing')}
                             >
                                 Pricing
                             </Link>
                             <Link 
                                 href='#demo' 
                                 className='text-lg font-semibold text-gray-900 hover:text-pink-600 transition-colors py-4 px-3 rounded-md hover:bg-gray-50 min-h-[48px] flex items-center'
-                                onClick={closeMobileMenu}
+                                onClick={() => handleNavClick('#demo')}
                             >
                                 Demo
                             </Link>
                             <Link 
                                 href='#faq' 
                                 className='text-lg font-semibold text-gray-900 hover:text-pink-600 transition-colors py-4 px-3 rounded-md hover:bg-gray-50 min-h-[48px] flex items-center'
-                                onClick={closeMobileMenu}
+                                onClick={() => handleNavClick('#faq')}
                             >
                                 FAQ
                             </Link>
-                            <Link 
-                                href='#' 
-                                className='text-lg font-semibold text-gray-900 hover:text-pink-600 transition-colors py-4 px-3 rounded-md hover:bg-gray-50 min-h-[48px] flex items-center'
-                                onClick={closeMobileMenu}
+                            <button 
+                                className='text-lg font-semibold text-gray-900 hover:text-pink-600 transition-colors py-4 px-3 rounded-md hover:bg-gray-50 min-h-[48px] flex items-center w-full text-left'
+                                onClick={() => {
+                                    closeMobileMenu();
+                                    openContactModal();
+                                }}
                             >
                                 Contact
-                            </Link>
+                            </button>
                         </div>
                         
                         {/* CTA Button Section */}
-                        <div className="p-6 border-t border-gray-200 bg-white">
+                        <div 
+                            className="p-6 border-t border-gray-200"
+                            style={{ backgroundColor: '#ffffff' }}
+                        >
                             <button 
                                 onClick={() => {
                                     closeMobileMenu();
@@ -193,6 +226,7 @@ function Navbar() {
             </div>
             
             <WaitlistModal isOpen={isWaitlistModalOpen} onClose={closeWaitlistModal} />
+            <ContactModal isOpen={isContactModalOpen} onClose={closeContactModal} />
         </nav>
     )
 }
