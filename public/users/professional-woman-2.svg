@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="40" cy="40" r="40" fill="#f3f4f6"/>
+  
+  <!-- Young professional woman -->
+  <circle cx="40" cy="40" r="38" fill="#f0fff4" stroke="#e5e7eb" stroke-width="2"/>
+  
+  <!-- Hair in ponytail -->
+  <ellipse cx="40" cy="30" rx="18" ry="14" fill="#654321"/>
+  <ellipse cx="40" cy="28" rx="16" ry="12" fill="#8b6914"/>
+  <ellipse cx="52" cy="32" rx="6" ry="10" fill="#654321"/>
+  
+  <!-- Face -->
+  <ellipse cx="40" cy="45" rx="16" ry="18" fill="#ffeaa7"/>
+  
+  <!-- Eyes -->
+  <circle cx="36" cy="42" r="2" fill="#2d3748"/>
+  <circle cx="44" cy="42" r="2" fill="#2d3748"/>
+  <circle cx="36.5" cy="41.5" r="0.5" fill="white"/>
+  <circle cx="44.5" cy="41.5" r="0.5" fill="white"/>
+  
+  <!-- Eyebrows -->
+  <path d="M 33 38 Q 36 37 39 38" stroke="#654321" stroke-width="2" fill="none"/>
+  <path d="M 41 38 Q 44 37 47 38" stroke="#654321" stroke-width="2" fill="none"/>
+  
+  <!-- Nose -->
+  <ellipse cx="40" cy="48" rx="1.5" ry="2" fill="#fdcb6e"/>
+  
+  <!-- Mouth -->
+  <path d="M 37 53 Q 40 55 43 53" stroke="#e17055" stroke-width="2" fill="none"/>
+  
+  <!-- Professional blouse -->
+  <rect x="24" y="63" width="32" height="22" fill="#ffffff" rx="4"/>
+  <rect x="26" y="65" width="28" height="18" fill="#f8f9fa" rx="2"/>
+  <circle cx="30" cy="68" r="1" fill="#6c757d"/>
+  <circle cx="30" cy="73" r="1" fill="#6c757d"/>
+  <circle cx="30" cy="78" r="1" fill="#6c757d"/>
+</svg>

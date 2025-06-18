@@ -10,32 +10,32 @@ import { ChevronRight } from 'lucide-react';
 function FaqSection() {
     const faqs = [
         {
-            question: "Lorem ipsum dolor sit amet?",
-            answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dapibus, nunc at malesuada facilisis, odio tortor pretium nisl, id tincidunt purus arcu eu quam. Integer nec libero sed augue tincidunt aliquet."
+            question: "How does Compliance Care help with OFSTED compliance?",
+            answer: "Compliance Care uses AI to analyze your policies and procedures against current OFSTED frameworks, providing real-time compliance scoring and identifying gaps. Our mock inspection simulator prepares your team for actual inspections with realistic scenarios and predictive grading."
         },
         {
-            question: "Quisque vehicula justo nec?",
-            answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed justo non nulla suscipit viverra. Ut commodo, orci a aliquet venenatis, ligula urna consequat nulla, in malesuada mauris odio id quam."
+            question: "Is my data secure and GDPR compliant?",
+            answer: "Yes, absolutely. We're fully GDPR compliant with UK data hosting, AES-256 encryption, and automatic file deletion after 48 hours. All user actions are logged, and we maintain ISO 27001 certification for security management."
         },
         {
-            question: "Pellentesque habitant morbi tristique?",
-            answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis orci nec nunc tempus interdum. Nulla facilisi. Suspendisse potenti. Vivamus vel felis nec orci pulvinar hendrerit. Curabitur ac felis in libero scelerisque."
+            question: "What types of documents can be analyzed?",
+            answer: "Our AI can analyze PDF, DOC, DOCX, and TXT files including policies, procedures, risk assessments, and care documentation. Each document is evaluated against OFSTED's latest frameworks for children's homes and supported living accommodations."
         },
         {
-            question: "Vestibulum ante ipsum primis?",
-            answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac justo eget lorem suscipit tempor. Curabitur a urna non eros porttitor tincidunt. Donec gravida, mauris et porttitor gravida, nulla nisi viverra ligula, id faucibus magna est vel nulla."
+            question: "How accurate is the mock inspection prediction?",
+            answer: "Our mock inspection simulator achieves 95% accuracy in predicting OFSTED grades. The system uses real inspection criteria, question banks from 500+ scenarios, and adapts based on your responses to provide realistic preparation."
         },
         {
-            question: "Nam at nisi vitae erat?",
-            answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod leo eu libero faucibus, id pharetra metus venenatis. Phasellus nec diam a massa fermentum pellentesque. Vivamus suscipit, urna nec varius cursus, quam urna aliquet urna, eget sollicitudin nisi turpis non enim."
+            question: "What is the early adopter program?",
+            answer: "The first 20 customers get access to Compliance Care for £197/month (normally £297/month) with dedicated onboarding support, training sessions, and priority access to new features. Full platform delivery within 2 months."
         },
         {
-            question: "Nam at nisi vitae erat?",
-            answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod leo eu libero faucibus, id pharetra metus venenatis. Phasellus nec diam a massa fermentum pellentesque. Vivamus suscipit, urna nec varius cursus, quam urna aliquet urna, eget sollicitudin nisi turpis non enim."
+            question: "Can I track incident patterns for multiple young people?",
+            answer: "Yes, our incident pattern analysis uses anonymous profiling (YP001, YP002, etc.) to identify behavioral patterns, risk factors, and provide early intervention recommendations while protecting young people's privacy."
         },
         {
-            question: "Nam at nisi vitae erat?",
-            answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod leo eu libero faucibus, id pharetra metus venenatis. Phasellus nec diam a massa fermentum pellentesque. Vivamus suscipit, urna nec varius cursus, quam urna aliquet urna, eget sollicitudin nisi turpis non enim."
+            question: "What kind of support do you provide?",
+            answer: "Early adopters receive dedicated onboarding support, comprehensive training sessions, and direct access to our development team for feedback and feature requests. We aim for <2 support tickets per customer per month."
         },
     ];
 

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="40" cy="40" r="40" fill="#f3f4f6"/>
+  
+  <!-- Casual woman with curly hair -->
+  <circle cx="40" cy="40" r="38" fill="#fffaf0" stroke="#e5e7eb" stroke-width="2"/>
+  
+  <!-- Curly hair -->
+  <circle cx="32" cy="28" r="8" fill="#8b4513"/>
+  <circle cx="40" cy="25" r="9" fill="#8b4513"/>
+  <circle cx="48" cy="28" r="8" fill="#8b4513"/>
+  <circle cx="28" cy="35" r="6" fill="#a0522d"/>
+  <circle cx="52" cy="35" r="6" fill="#a0522d"/>
+  <circle cx="40" cy="32" r="7" fill="#a0522d"/>
+  
+  <!-- Face -->
+  <ellipse cx="40" cy="46" rx="17" ry="19" fill="#deb887"/>
+  
+  <!-- Eyes -->
+  <circle cx="36" cy="43" r="2" fill="#2d3748"/>
+  <circle cx="44" cy="43" r="2" fill="#2d3748"/>
+  <circle cx="36.5" cy="42.5" r="0.5" fill="white"/>
+  <circle cx="44.5" cy="42.5" r="0.5" fill="white"/>
+  
+  <!-- Eyebrows -->
+  <path d="M 33 39 Q 36 38 39 39" stroke="#8b4513" stroke-width="2" fill="none"/>
+  <path d="M 41 39 Q 44 38 47 39" stroke="#8b4513" stroke-width="2" fill="none"/>
+  
+  <!-- Nose -->
+  <ellipse cx="40" cy="49" rx="1.5" ry="2" fill="#d4a574"/>
+  
+  <!-- Mouth -->
+  <path d="M 37 54 Q 40 56 43 54" stroke="#d69e2e" stroke-width="2" fill="none"/>
+  
+  <!-- Casual sweater -->
+  <rect x="22" y="65" width="36" height="20" fill="#805ad5" rx="4"/>
+  <rect x="25" y="67" width="30" height="15" fill="#9f7aea" rx="2"/>
+</svg>

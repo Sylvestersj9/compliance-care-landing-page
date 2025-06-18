@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="40" cy="40" r="40" fill="#f3f4f6"/>
+  
+  <!-- Casual man with beard -->
+  <circle cx="40" cy="40" r="38" fill="#fff5f5" stroke="#e5e7eb" stroke-width="2"/>
+  
+  <!-- Hair -->
+  <ellipse cx="40" cy="32" rx="22" ry="15" fill="#2d1810"/>
+  <ellipse cx="40" cy="30" rx="20" ry="13" fill="#4a2c17"/>
+  
+  <!-- Face -->
+  <ellipse cx="40" cy="45" rx="17" ry="19" fill="#f7b788"/>
+  
+  <!-- Eyes -->
+  <circle cx="35" cy="42" r="2" fill="#2d3748"/>
+  <circle cx="45" cy="42" r="2" fill="#2d3748"/>
+  <circle cx="35.5" cy="41.5" r="0.5" fill="white"/>
+  <circle cx="45.5" cy="41.5" r="0.5" fill="white"/>
+  
+  <!-- Eyebrows -->
+  <path d="M 32 38 Q 35 37 38 38" stroke="#2d1810" stroke-width="2" fill="none"/>
+  <path d="M 42 38 Q 45 37 48 38" stroke="#2d1810" stroke-width="2" fill="none"/>
+  
+  <!-- Nose -->
+  <ellipse cx="40" cy="48" rx="1.5" ry="2.5" fill="#e09968"/>
+  
+  <!-- Beard -->
+  <ellipse cx="40" cy="56" rx="12" ry="8" fill="#2d1810"/>
+  <ellipse cx="40" cy="55" rx="10" ry="6" fill="#4a2c17"/>
+  
+  <!-- Mouth -->
+  <path d="M 37 52 Q 40 54 43 52" stroke="#c53030" stroke-width="2" fill="none"/>
+  
+  <!-- Casual t-shirt -->
+  <rect x="22" y="65" width="36" height="20" fill="#3182ce" rx="4"/>
+  <rect x="25" y="67" width="30" height="15" fill="#4299e1" rx="2"/>
+</svg>

@@ -15,8 +15,8 @@ export const formatPrice = (price) => {
 };
 
 export function constructMetadata({
-  title = "Your App",
-  description = "Your app desription goes here",
+  title = "Compliance Care - AI-Powered OFSTED Compliance for Children's Care",
+  description = "Get inspection-ready with Compliance Care's AI platform. Document analysis, mock inspections, and incident pattern recognition designed for UK children's homes. £197/month early adopter pricing.",
   image = "/openGraph.png",
   icons = "/favicon.ico",
 } = {}) {
@@ -27,7 +27,7 @@ export function constructMetadata({
     openGraph: {
       title,
       description,
-      siteName: "SaaS Landing Page",
+      siteName: "Compliance Care",
       url: "https://saas-landing-page-pied-seven.vercel.app/",
       type: "website",
       images: [{ url: image }]

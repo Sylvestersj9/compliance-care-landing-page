@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="40" cy="40" r="40" fill="#f3f4f6"/>
+  
+  <!-- Professional woman with glasses -->
+  <circle cx="40" cy="40" r="38" fill="#fef7ff" stroke="#e5e7eb" stroke-width="2"/>
+  
+  <!-- Hair -->
+  <ellipse cx="40" cy="35" rx="25" ry="20" fill="#8b4513"/>
+  <ellipse cx="40" cy="32" rx="22" ry="18" fill="#a0522d"/>
+  
+  <!-- Face -->
+  <ellipse cx="40" cy="45" rx="18" ry="20" fill="#fdbcb4"/>
+  
+  <!-- Eyes with glasses -->
+  <rect x="28" y="40" width="24" height="12" fill="none" stroke="#2d3748" stroke-width="2" rx="6"/>
+  <circle cx="34" cy="43" r="3" fill="#2d3748"/>
+  <circle cx="46" cy="43" r="3" fill="#2d3748"/>
+  <line x1="40" y1="41" x2="40" y2="45" stroke="#2d3748" stroke-width="1"/>
+  
+  <!-- Nose -->
+  <ellipse cx="40" cy="50" rx="1.5" ry="2" fill="#f49b9b"/>
+  
+  <!-- Mouth -->
+  <path d="M 37 55 Q 40 58 43 55" stroke="#d69e2e" stroke-width="2" fill="none"/>
+  
+  <!-- Professional blazer -->
+  <rect x="20" y="65" width="40" height="20" fill="#2d3748" rx="5"/>
+  <rect x="25" y="67" width="30" height="15" fill="#4a5568" rx="3"/>
+</svg>

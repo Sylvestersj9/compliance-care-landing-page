@@ -1,0 +1,25 @@
+<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cqcGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#007BB8"/>
+      <stop offset="100%" stop-color="#005580"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- CQC Logo Background -->
+  <rect x="5" y="15" width="70" height="50" rx="8" fill="url(#cqcGradient)"/>
+  
+  <!-- CQC Symbol -->
+  <circle cx="25" cy="35" r="12" fill="#ffffff"/>
+  <circle cx="25" cy="35" r="8" fill="url(#cqcGradient)"/>
+  <path d="M20 35 L25 40 L30 30" stroke="#ffffff" stroke-width="2" fill="none"/>
+  
+  <circle cx="55" cy="35" r="12" fill="#ffffff"/>
+  <circle cx="55" cy="35" r="8" fill="url(#cqcGradient)"/>
+  <path d="M50 35 L55 40 L60 30" stroke="#ffffff" stroke-width="2" fill="none"/>
+  
+  <!-- CQC Text -->
+  <text x="90" y="30" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#007BB8">CQC</text>
+  <text x="90" y="50" font-family="Arial, sans-serif" font-size="10" fill="#666666">Care Quality Commission</text>
+  <text x="90" y="62" font-family="Arial, sans-serif" font-size="10" fill="#666666">Independent regulator of health</text>
+</svg>

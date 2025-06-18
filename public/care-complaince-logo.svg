@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="300" viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="300" fill="#ffffff"/>
+  
+  <!-- Care logo (circle with heart) -->
+  <circle cx="150" cy="150" r="50" fill="#E91E63"/>
+  <path d="M130 140 C130 135, 135 130, 140 130 C145 130, 150 135, 150 140 C150 135, 155 130, 160 130 C165 130, 170 135, 170 140 C170 150, 150 170, 150 170 C150 170, 130 150, 130 140 Z" fill="white"/>
+  
+  <!-- CARE text -->
+  <text x="220" y="170" font-family="Arial, sans-serif" font-size="60" font-weight="bold" fill="#E91E63">CARE</text>
+  
+  <!-- COMPLAINCE text -->
+  <text x="220" y="210" font-family="Arial, sans-serif" font-size="20" font-weight="normal" fill="#333333">COMPLAINCE</text>
+</svg>
