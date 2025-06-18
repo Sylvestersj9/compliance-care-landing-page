@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <style>
+      .pink-text { fill: #e91e63; font-family: Arial, sans-serif; font-weight: bold; }
+      .dark-text { fill: #333; font-family: Arial, sans-serif; font-weight: 600; }
+      .heart { fill: white; }
+    </style>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="80" cy="150" r="45" fill="#e91e63"/>
+  
+  <!-- Heart icon inside circle -->
+  <path d="M65 140c0-8 6-14 14-14s14 6 14 14c0 8-14 20-14 20s-14-12-14-20z" class="heart"/>
+  <path d="M80 140c0-8 6-14 14-14s14 6 14 14c0 8-14 20-14 20s-14-12-14-20z" class="heart"/>
+  
+  <!-- CARE text -->
+  <text x="140" y="170" class="pink-text" font-size="80">CARE</text>
+  
+  <!-- COMPLAINCE text -->
+  <text x="165" y="220" class="dark-text" font-size="24" letter-spacing="3">COMPLAINCE</text>
+</svg>

@@ -12,6 +12,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className='light !scroll-smooth'>
       <head>
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="/care-complaince-logo.png" />
+        <meta name="theme-color" content="#e91e63" />
         <script defer src="https://cloud.umami.is/script.js" data-website-id="22623642-4859-4b11-bc9c-5e1be448cb2c"></script>
       </head>
       <body className={cn('min-h-screen font-sans antialiased', mulish.className)}>

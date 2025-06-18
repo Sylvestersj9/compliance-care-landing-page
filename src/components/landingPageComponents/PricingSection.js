@@ -38,11 +38,11 @@ function PricingSection() {
                             Early Adopter Special
                         </div>
                         
-                        <h3 className='text-3xl font-bold mb-4 text-center text-pink-600'>Compliance Care</h3>
+                        <h3 className='text-2xl md:text-3xl font-bold mt-8 md:mt-4 mb-6 md:mb-4 text-center text-pink-600'>Compliance Care</h3>
 
-                        <p className='font-bold mb-4 text-center'>
-                            <span className='text-6xl text-gray-900'>£197</span>
-                            <span className='text-lg text-[#6B7989]'>/month</span>
+                        <p className='font-bold mb-6 md:mb-4 text-center'>
+                            <span className='text-4xl md:text-6xl text-gray-900'>£197</span>
+                            <span className='text-sm md:text-lg text-[#6B7989]'>/month</span>
                         </p>
 
                         <p className="text-center text-sm text-gray-600 mb-6">
